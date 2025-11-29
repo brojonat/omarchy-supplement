@@ -29,7 +29,6 @@ if [ $? -eq 0 ]; then
   cd "$REPO_NAME"
   stow ghostty
   stow tmux
-  stow tmuxifier
   stow nvim
   stow starship
 else
