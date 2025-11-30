@@ -31,6 +31,7 @@ if [ $? -eq 0 ]; then
   stow tmux
   stow nvim
   stow starship
+  # add any other relevant dotfiles here...
 else
   echo "Failed to clone the repository."
   exit 1
